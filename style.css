@@ -20,3 +20,13 @@
   border-radius: 5px;
   padding: 10px;
 }
+
+main {
+  display: flex;
+  width: 675px;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+}
