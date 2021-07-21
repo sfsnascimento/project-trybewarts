@@ -2,9 +2,21 @@
   background-color: rgb(50, 167, 145);
   display: flex;
   justify-content: space-between;
+  align-self: baseline;
 }
 
 .trybewarts-login {
   display: flex;
-  align-self: flex-start;
+  align-self: center;
+}
+
+#trybewarts-header-title {
+  color: white;
+  font-size: 80px;
+}
+
+#login , #senha , #entrar {
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 10px;
 }
