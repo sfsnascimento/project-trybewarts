@@ -20,3 +20,12 @@ check.addEventListener('click', () => {
     button.setAttribute('disabled', 'true');
   }
 });
+
+const textarea = document.getElementById('textarea');
+
+textarea.addEventListener('keyup', () => {
+  const letter = textarea.value.length;
+  const counterLetter = 500 - letter;
+  const caracter = document.getElementById('counter');
+  caracter.innerText = counterLetter;
+});

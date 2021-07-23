@@ -1,8 +1,13 @@
+body {
+  margin: 0;
+}
+
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
   justify-content: space-between;
   align-self: baseline;
+  padding: 10px;
 }
 
 .trybewarts-login {
@@ -12,7 +17,8 @@
 
 #trybewarts-header-title {
   color: white;
-  font-size: 80px;
+  font-size: 50px;
+  align-self: center;
 }
 
 #login , #senha , #entrar {
@@ -23,12 +29,17 @@
 
 main {
   display: flex;
+  background-color: rgb(233, 227, 227);
+  justify-content: space-between;
 }
 
 #evaluation-form {
   display: flex;
   width: 675px;
   flex-direction: column;
+  margin-top: 10px;
+  font-size: 16px;
+  margin-left: 40px;
 }
 
 #trybewarts-forms-logo {
@@ -49,4 +60,77 @@ main {
   text-align: center;
   color: white;
   padding: 10px;
+}
+
+#submit-btn {
+  background-color: rgb(9, 9, 160);
+  color: white;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+#form-email {
+  margin-bottom: 10px;
+}
+
+#label-family {
+  margin: 10px 0;
+
+}
+
+#input-lastname {
+  margin-bottom: 10px;
+}
+
+.btn-radio {
+  margin: 10px 0;
+}
+
+#label-content {
+  margin-bottom: 10px;
+}
+
+#check-box {
+  margin-bottom: 10px;
+}
+
+#fullstack {
+  margin-bottom: 10px;
+}
+
+#frontend , #backend , #fullstack {
+  margin-left: 15px;
+}
+
+#label-infos {
+  margin: 10px 0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-container {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+hr {
+  width: 100%;
+}
+
+.caracteres {
+  display: flex;
+}
+
+#paragraph-caractere {
+  margin-right: 10px;
 }
