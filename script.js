@@ -1,5 +1,3 @@
-// const login = document.getElementById('login');
-// const senha = document.getElementById('senha');
 const entrar = document.getElementById('entrar');
 
 entrar.addEventListener('click', () => {
@@ -9,5 +7,16 @@ entrar.addEventListener('click', () => {
     alert('Login ou senha inválidos.');
   } else {
     alert('Olá, Tryber!');
+  }
+});
+
+const button = document.getElementById('submit-btn');
+const check = document.getElementById('agreement');
+
+check.addEventListener('click', () => {
+  if (check.checked) {
+    button.removeAttribute('disabled');
+  } else {
+    button.setAttribute('disabled', 'true');
   }
 });
