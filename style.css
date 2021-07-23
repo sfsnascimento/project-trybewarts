@@ -43,3 +43,10 @@ main {
 #house {
   padding: 0 31px;
 }
+
+#footer {
+  background-color: rgb(77, 75, 75);
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
