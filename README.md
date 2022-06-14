@@ -3,9 +3,11 @@
 ## Desenvolvimento
 Neste projeto, foi desenvolvido uma página de formulário da Escola de Magia de Trybewarts, em que as pessoas estudantes poderão enviar seus feedbacks sobre a escola. O tema desse projeto é baseado na obra 'Harry Potter', de J. K. Rowling.
 
-##Instruções para rodar o projeto
-### Clone o repositório: 
-#### Entre na pasta do repositório que você acabou de clonar:
+
+# Instruções para rodar o projeto
+
+Clone o repositório
+- Entre na pasta do repositório que você acabou de clonar:
  - `cd project-TrybeWarts`
 
 ## Instale as dependências:
