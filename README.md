@@ -6,7 +6,7 @@ Neste projeto, foi desenvolvido uma página de formulário da Escola de Magia de
 
 # Instruções para rodar o projeto
 
-Clone o repositório
+- Clone o repositório
 - Entre na pasta do repositório que você acabou de clonar:
  - `cd project-TrybeWarts`
 
